@@ -1,0 +1,60 @@
+body{
+    background-image: url("Screenshot\ \(134\).png");
+    background-repeat: repeat-x;
+   position: relative;
+}
+.login{
+    width: 300px;
+    height: 430px;
+    background-color: rgb(201, 201, 201);
+    float: left;
+    position: absolute;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 30px;
+    display: flex; 
+}
+form{
+    margin: 20px;
+}
+.userimg , .passimg{
+    margin-top: 20px;
+    position: relative;
+    left: 110px;
+}
+.login form input{
+    border: none;
+    background-color: inherit;
+    border-bottom: 3px solid black;
+    margin: 20px;
+    width: 210px;
+}
+.login form input:focus{ 
+    border-bottom:2px solid rgb(92, 84, 237);
+    outline: none;
+}
+
+.login form .log{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(196, 107, 218);
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+    left: 90px;
+    text-align: center;
+}
+.login form .log a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.login form .sign{
+    position: relative;
+        left: 105px;
+        bottom: -20px;
+}
