@@ -1,65 +1,54 @@
-body{
+body {
     background-image: url("Screenshot\ \(134\).png");
     background-repeat: repeat-x;
-   position: relative;
+    position: relative;
 }
-.login{
-    width: 300px;
-    height: 430px;
+.signup {
+    width: 350px;
+    height: 650px;
     background-color: rgb(201, 201, 201);
     float: left;
     position: absolute;
     left: 50%;
-    margin-left: -150px;
+    margin-left: -175px;
     margin-top: 20px;
     padding-top: 20px;
     border-radius: 30px;
-    display: flex; 
+    display: flex;
 }
-form{
+form {
     margin: 20px;
 }
-.userimg , .passimg{
+.userimg ,.emailimg,.passimg {
     margin-top: 20px;
     position: relative;
-    left: 110px;
+    left: 130px;
 }
-.login form input{
+.signup form input {
     border: none;
     background-color: inherit;
     border-bottom: 3px solid black;
     margin: 20px;
-    width: 210px;
+    width: 250px;
 }
-.login form input:focus{ 
-    border-bottom:2px solid rgb(92, 84, 237);
+.signup form input:focus {
+    border-bottom: 2px solid rgb(92, 84, 237);
     outline: none;
 }
-
-.login form .log{
+.signup form .sign {
     width: 80px;
     height: 30px;
     background-color: rgb(196, 107, 218);
     border-radius: 10px;
     margin-top: 20px;
     position: relative;
-    left: 90px;
+    left: 110px;
     text-align: center;
 }
-.login form .log a{
+.signup form .sign a {
     text-decoration: none;
     color: black;
     font-size: larger;
     font-weight: bold;
     text-transform: capitalize;
-}
-.login form .sign{
-    position: relative;
-        left: 105px;
-        bottom: -20px;
-}
-.ashraf{
-    width: 300px;
-    height: 50px;
-    background-color: red;
 }
